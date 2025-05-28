@@ -1,0 +1,112 @@
+$date
+	Wed May 28 02:02:19 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_eight_bb $end
+$var wire 8 ! q [7:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$var reg 1 $ serial_in $end
+$var reg 1 % shift_left $end
+$var reg 1 & shift_right $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 1 $ serial_in $end
+$var wire 1 % shift_left $end
+$var wire 1 & shift_right $end
+$var reg 8 ' q [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 '
+0&
+0%
+0$
+1#
+0"
+b0 !
+$end
+#5000
+1"
+#10000
+0"
+0#
+#15000
+1"
+#20000
+0"
+1$
+1%
+#25000
+b1 !
+b1 '
+1"
+#30000
+0"
+0$
+#35000
+b10 !
+b10 '
+1"
+#40000
+0"
+1$
+#45000
+b101 !
+b101 '
+1"
+#50000
+0"
+0$
+1&
+#55000
+b1010 !
+b1010 '
+1"
+#60000
+0"
+1$
+#65000
+b10101 !
+b10101 '
+1"
+#70000
+0"
+0$
+#75000
+b101010 !
+b101010 '
+1"
+#80000
+0"
+1$
+#85000
+b1010101 !
+b1010101 '
+1"
+#90000
+0"
+#95000
+b10101011 !
+b10101011 '
+1"
+#100000
+0"
+0&
+0%
+#105000
+1"
+#110000
+0"
+#115000
+1"
+#120000
+0"
